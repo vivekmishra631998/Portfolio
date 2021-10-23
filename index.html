@@ -7,7 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <style>
-        body{margin: 0px;}
+        body{margin: 0px;
+        background: linear-gradient(45deg,pink,white);
+        }
         .parallax{
      background-image: url("./pic.jpg")  ;
      height : 80vh;
@@ -25,31 +27,40 @@
      background-size: cover;
     
      }
-     #d1{
+     #aboutme{
          text-align: center;
      }
-     button{
-        /* color: green; */background: darkgreen;color:white;
-     } 
      #button{
-        text-align: center;  transition: transform .2s;
+         color: white;
+         background: linear-gradient(45deg,darkred,black);
+         box-shadow: 0 0 10px black;
+          padding: 5px;
+          width: 100px;
+          margin-left: 46%;
+        text-align: center; 
+        transition: transform .4s ease;
        
      }
-     #button:hover{
-         transform:scale(1.2);
-     }
-     .H{text-shadow:2px 2px 4px royalblue;
+      #button:hover{
+         transform:scale(1.1);
+         background: linear-gradient(45deg,skyblue,white);
+         border: skyblue;
+         box-shadow: 0 0 10px skyblue;
+         color: black;
+     } 
+     .aboutme{text-shadow:2px 2px 4px royalblue;
         text-decoration-style: double;
-        text-decoration: underline;
+        text-decoration: underline; 
     }
-    #B{
+    /* #B{
        
         padding: 5px;
     }
     #A{
         text-decoration: none;
         color: white;
-    }
+     } */
+    
     #content{
         float: right;
         margin-top: 20px;
@@ -61,7 +72,7 @@
         color: white;
         padding-top: 10px;
     }
-            #a{
+            #foot{
                 width: 100%;
                 color:white;
                 transition: 0.2s ease;
@@ -69,7 +80,7 @@
                
 
             }
-            #a:hover{background-color: blue;
+            #foot:hover{background-color: blue;
             border-radius: 50%;
         padding: 10px;}
         li{
@@ -81,15 +92,18 @@
 </head>
 <body>
     <div class="parallax">   </div>
-    <div id="d1"> <h1 class="H">About me</h1>
+    <div id="aboutme"> <h1 class="aboutme">About me</h1>
         <p>Hey there! I am Vivek Mishra from Lucknow. I have completed my B.tech in Civil Engineering in 2021. I have acheived 97.87%ile in CAT 2020. But I aspire to be a <span style="font-style: italic;background-color:darkred ;color: white;">Web Developer </span> as it suits my interest.</p>
         <p>Let me tell you some facts about Webdev that will blow your mind.</p>
        
        
     </div>
-    <div id="button"> <button id="B" ><a id="A" href="clickme.html"  target="_blank">
+    <!-- <div id="button"> <button id="B" ><a id="A" href="clickme.html"  target="_blank">
         Click Me!</a>
-    </button></div>
+    </button></div> -->
+    
+        <a href="clickme.html"><button id="button">Click Me</button></a>
+    
     <div><h2>Advantages of Web Development </h2>
         <p>So the first question which comes before learning Web development for beginners it that Why should I learn Web development.
 
@@ -164,10 +178,10 @@
            
         </div> 
         <div id="social">
-            <a id="a" href="https://www.facebook.com/vivekmishra631998/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a  id="a" href="https://www.instagram.com/mishra.vivek1/"  target="_blank"><i class="fab fa-instagram"></i></a>
-            <a  id="a" href="https://twitter.com/VivekMi71588368"  target="_blank"><i class="fab fa-twitter"></i></a>
-            <a  id="a" href="https://www.linkedin.com/in/vivek-mishra-791865189/"  target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a id="foot" href="https://www.facebook.com/vivekmishra631998/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a  id="foot" href="https://www.instagram.com/mishra.vivek1/"  target="_blank"><i class="fab fa-instagram"></i></a>
+            <a  id="foot" href="https://twitter.com/VivekMi71588368"  target="_blank"><i class="fab fa-twitter"></i></a>
+            <a  id="foot" href="https://www.linkedin.com/in/vivek-mishra-791865189/"  target="_blank"><i class="fab fa-linkedin-in"></i></a>
            <p ><h3>All copyrights &copy; are reserved by Vivek Mishra</h3></p> 
            <!-- style color was not applying here -->
            </div>
